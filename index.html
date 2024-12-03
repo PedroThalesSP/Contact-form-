@@ -9,10 +9,10 @@
 </head>
 <body>
   <main>
-    <form action="">
+    <form action="contact-form">
       <h1> Contact Us </h1>
       
-      <div>
+      <div class="name">
         <!-- First Name -->
         <!-- firth form -->
         <label for="name"> First Name</label>
@@ -20,7 +20,7 @@
         This field is required <br>
       </div>
 
-      <div>
+      <div class="last-name">
 
         <!-- Last Name -->
         <!-- second form -->
@@ -29,7 +29,7 @@
         This field is required <br>
       </div>
       
-      <div>
+      <div class="email">
         <!-- email -->
         <!-- third form -->
         <label for="email"> Email Address</label>
@@ -38,26 +38,33 @@
         This field is required <br>
       </div>
       
-      <div>
+      <div class="radio-button">
         <!-- Query Type -->
-        <!-- fourth form -->
-        <label for="Query Type"></label>
-        <input type="radio" value="General Enquiry"> General Enquiry <br>
-        <input type="radio" value="Support Request"> Support Request <br>
-        Support Request
-        Please select a query type <br>
+        <!-- fourth form --> 
+        <div class="form-group">
+          <label for="Query Type one"></label>
+          <input type="radio" value="General Enquiry" name="radio"> General Enquiry <br>
+        </div>
+
+        <div class="form-group">
+          <label for="Query Type Two"></label>
+          <input type="radio" value="Support Request" name="radio"> Support Request <br>
+        </div>
+
+        <!-- Support Request
+        Please select a query type <br> -->
       </div>
 
-      <div>
-  <!-- mensage -->
-  <!-- fifth form -->
-  <label for="Message"></label>
-  <input type="text">
-  This field is required <br>
+      <div class="mensage">
+        <!-- mensage -->
+        <!-- fifth form -->
+        <label for="Message"></label>
+        <input type="text">
+        This field is required <br>
 
       </div>
 
-      <div>
+      <div class="checkbox">
         <!-- checkbox -->
         <!-- sixth form -->      
         <label for="checkbox"></label>
@@ -68,7 +75,7 @@
 
       </div>
 
-      <div>
+      <div class="submit">
         <!-- submit -->
         <!-- seventh form --> 
         <label for="submit"></label>
