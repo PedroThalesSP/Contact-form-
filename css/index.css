@@ -1,23 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
-    box-shadow: none;
+
 }
 
 body{
     background-color: #E0F1E7 ;
 }
 
+header{
+    max-width: 800px;
+    margin: 0px auto;
+
+    background-color: white;
+}
+
 main{
     max-width: 800px;
-    max-height: auto;
-    margin:200px auto;
-    padding: 20px;
+    margin:0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     border-radius: 8px;
+}
+
+form{
+    max-width: 100%;
+}
+
+p{
+    font-family: "Karla", sans-serif;
+    
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0px;
+    
 }
 
 .user-name input{
@@ -47,15 +71,25 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
-.form-group-one{
-    border-color: black;
-    border-width: 10px;
+.mensage input{
+    width: 45em;
+    height: 10em;
+    border-radius: 15px;
+    border-width: thin;
 }
 
-.form-group-two{
-    
+.form-group{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 40px;
+    width: 19em;
+    max-width: 100%;
+    gap: 0px 8px;
 }
 
 

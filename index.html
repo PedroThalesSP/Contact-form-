@@ -8,83 +8,80 @@
   <title>Frontend Mentor | Contact form</title>
 </head>
 <body>
+
+  <header>
+    <h1> Contact Us </h1>
+  </header>
+
   <main>
-    <form action="contact-form">
-      <h1> Contact Us </h1>
-      
-      <div class="user-name">
-        <div class="name">
-          <!-- First Name -->
-          <!-- firth form -->
-          <p> First Name</p>
-          <label for="name"></label>
-          <input type="text" required>
-          <!-- This field is required <br> -->
+    <form>
+      <div class="contact-form">
+        
+        <div class="user-name">
+          <div class="name">
+            <!-- First Name -->
+            <!-- firth form -->
+            <p> First Name</p>
+            <label for="name"></label>
+            <input type="text" required>
+            <!-- This field is required <br> -->
+          </div>
+    
+          <div class="last-name">
+    
+            <!-- Last Name -->
+            <!-- second form -->
+            <p>Last Name </p>
+            <label for="name"> </label>
+            <input type="text" required>
+            <!-- This field is required <br> -->
+          </div>
+        </div>
+        
+        <div class="email">
+          <!-- email -->
+          <!-- third form -->
+           <p> Email Address</p>
+          <label for="email"></label>
+          <input type="email" required >
+          <!-- Please enter a valid email address
+          This field is required <br> -->
+        </div>
+        
+        <p>Query Type</p>
+
+        <div class="enquiry">
+          <div class="form-group">
+            <label for="Query Type one"></label>
+            <input type="radio" value="General Enquiry" name="radio"> General Enquiry <br>
+          </div>
+  
+          <div class="form-group">
+            <label for="Query Type Two"></label>
+            <input type="radio" value="Support Request" name="radio"> Support Request <br>
+          </div>
+  
+          <!-- Support Request
+          Please select a query type <br> -->
         </div>
   
-        <div class="last-name">
-  
-          <!-- Last Name -->
-          <!-- second form -->
-          <p>Last Name </p>
-          <label for="name"> </label>
-          <input type="text" required>
-          <!-- This field is required <br> -->
+        <div class="mensage">
+          <p>Mensage</p>
+          <label for="Message"></label>
+          <input type="text">  
         </div>
-      </div>
-      
-      <div class="email">
-        <!-- email -->
-        <!-- third form -->
-         <p> Email Address</p>
-        <label for="email"></label>
-        <input type="email" required >
-        <!-- Please enter a valid email address
-        This field is required <br> -->
-      </div>
-      
-      <div class="enquiry">
-        <!-- Query Type -->
-        <!-- fourth form --> 
-        <div class="form-group-one">
-          <label for="Query Type one"></label>
-          <input type="radio" value="General Enquiry" name="radio"> General Enquiry <br>
-        </div>
-
-        <div class="form-group-two">
-          <label for="Query Type Two"></label>
-          <input type="radio" value="Support Request" name="radio"> Support Request <br>
-        </div>
-
-        <!-- Support Request
-        Please select a query type <br> -->
-      </div>
-
-      <div class="mensage">
-        <!-- mensage -->
-        <!-- fifth form -->
-        <label for="Message"></label>
-        <input type="text">
-        This field is required <br>
-
-      </div>
-
-      <div class="checkbox">
-        <!-- checkbox -->
-        <!-- sixth form -->      
-        <label for="checkbox"></label>
-        <input type="checkbox"> I consent to being contacted by the team <br>
   
+        <div class="checkbox">      
+          <label for="checkbox"></label>
+          <input type="checkbox"> I consent to being contacted by the team
+        </div>
   
-        To submit this form, please consent to being contacted
-
-      </div>
-
-      <div class="submit">
-        <!-- submit -->
-        <!-- seventh form --> 
-        <label for="submit"></label>
-        <input type="submit">
+        <div class="submit">
+          <!-- submit -->
+          <!-- seventh form --> 
+          <label for="submit"></label>
+          <input type="submit">
+        </div>
       </div>
       
       <!-- Message Sent!
