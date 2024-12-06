@@ -20,10 +20,12 @@ header{
 
 main{
     max-width: 800px;
+    height: 38em;
     margin:0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: white;
     border-radius: 8px;
 }
@@ -35,6 +37,10 @@ form{
 p{
     font-family: "Karla", sans-serif;
     
+}
+
+span{
+    color: #0C7E67;
 }
 
 .contact-form{
@@ -55,7 +61,7 @@ p{
 .user-name{
     display: flex;
     align-items: center;
-    max-width: 800px;
+    width: 800px;
     gap: 0px 15px;
 }
 
@@ -75,6 +81,7 @@ p{
 }
 
 .mensage input{
+    max-width: 100%;
     width: 45em;
     height: 10em;
     border-radius: 15px;
@@ -92,6 +99,16 @@ p{
     gap: 0px 8px;
 }
 
+.submit input{
+    max-width: 100%;
+    width: 45em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background-color: #0C7E67;
+    color: white;
+
+}
 
 /* footer{
     max-width: 800px;
