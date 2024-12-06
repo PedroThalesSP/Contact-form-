@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Chivo:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 *{
@@ -20,14 +21,15 @@ header{
 
 main{
     max-width: 800px;
-    height: 38em;
-    margin:0px auto;
+    margin:100px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     background-color: white;
     border-radius: 20px;
+    padding: 12px; 
+
 }
 
 form{
@@ -35,11 +37,13 @@ form{
 }
 
 h1{
-    color:#485C5D
+    color:#485C5D;
+    font-size: 38px;
+    font-family: "Lexend", sans-serif;
 }
 
 p{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Lexend", sans-serif;
     color: #485C5D;
 }
 
@@ -54,8 +58,7 @@ input{
 .contact-form{
     display: flex;
     flex-direction: column;
-    gap: 30px 0px;
-    
+    gap: 30px 0px;    
 }
 
 .user-name input{
@@ -72,6 +75,10 @@ input{
     align-items: center;
     flex-wrap: wrap;
     gap: 0px 15px;
+}
+
+.name{
+max-width: 100%;
 }
 
 .email input{
