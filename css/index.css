@@ -27,20 +27,28 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 form{
     max-width: 100%;
 }
 
+h1{
+    color:#485C5D
+}
+
 p{
-    font-family: "Karla", sans-serif;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    color: #485C5D;
 }
 
 span{
     color: #0C7E67;
+}
+
+input{
+    border-color: #ADB5B4;
 }
 
 .contact-form{
@@ -56,12 +64,13 @@ span{
     height: 40px;
     width: 22em;
     max-width: 100%;
+    border-color: #ADB5B4;
 }
 
 .user-name{
     display: flex;
     align-items: center;
-    width: 800px;
+    flex-wrap: wrap;
     gap: 0px 15px;
 }
 
@@ -76,7 +85,9 @@ span{
 .enquiry{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 
 }
 
@@ -91,12 +102,13 @@ span{
 .form-group{
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #AEB0B0;
     border-radius: 4px;
     height: 40px;
     width: 19em;
     max-width: 100%;
     gap: 0px 8px;
+    color:  #485C5D;
 }
 
 .submit input{
