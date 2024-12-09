@@ -116,6 +116,7 @@ max-width: 100%;
     max-width: 100%;
     gap: 0px 8px;
     color:  #485C5D;
+    
 }
 
 .submit input{
@@ -128,6 +129,13 @@ max-width: 100%;
     color: white;
 
 }
+
+a {
+    color: red;
+    visibility:hidden
+}
+
+
 
 /* footer{
     max-width: 800px;
