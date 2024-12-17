@@ -8,8 +8,26 @@ const checkBox = document.getElementById("user-checkbox");
 const userSubmit = document.getElementById("user-submit");
 
 form.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-    
 
 
+    userNameValidation();
 })
+
+function userNameValidation(){
+    const firstNameValidation = firstNameName.value;
+    console.log(firstNameValidation)
+
+    if (firstNameValidation === ""){
+        errorInput(username, "Digite seu primeiro nome" )
+    }
+
+}
+
+function errorInput(input, message){
+    const formItem = input.parentElement;
+    const textMessage = formItem.querySelector("a")
+    textMessage.innerText = message;
+    formItem.className = "form-content error"
+}
