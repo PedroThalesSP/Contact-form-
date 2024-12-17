@@ -16,18 +16,18 @@ form.addEventListener("submit", (event) => {
 })
 
 function userNameValidation(){
-    const firstNameValidation = firstNameName.value;
+    const firstNameValidation = firstName.value;
     console.log(firstNameValidation)
 
     if (firstNameValidation === ""){
-        errorInput(username, "Digite seu primeiro nome" )
+        errorInput(firstName, "Digite seu primeiro nome" )
     }
 
 }
 
 function errorInput(input, message){
     const formItem = input.parentElement;
-    const textMessage = formItem.querySelector("a")
+    const textMessage = form.querySelector("a")
     textMessage.innerText = message;
     formItem.className = "form-content error"
 }
