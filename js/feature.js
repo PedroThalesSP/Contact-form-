@@ -16,6 +16,9 @@ form.addEventListener("submit", (event) => {
     userNameValidationTwo();
     userEmailValidation();
     queryTypeOption();
+    mensageValidation()
+    checkBoxValidation();
+    
 })
 
 //User name
@@ -53,5 +56,26 @@ function queryTypeOption() {
         console.log(`Opção selecionada: ${selectedOption.value}`);
     } else {
         alert("Por favor, selecione um tipo de consulta.");
+    }
+}
+
+function mensageValidation (){
+    const userMensage = document.getElementById('user-mensage').value.trim()
+
+    if (userMensage === "" ){
+        alert("digite sua mensagem")
+    } else {
+        console.log(userMensage)
+    }
+}
+
+// Mensage
+function checkBoxValidation (){
+    const boxValidation = document.getElementById('user-checkbox');
+
+    if(!boxValidation.checked){
+        alert("Marque a caixa abaixo para prosseguir")
+    } else{ 
+        console.log(`A opção foi selecionada com exito`)
     }
 }
