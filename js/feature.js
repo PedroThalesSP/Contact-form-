@@ -19,15 +19,6 @@ form.addEventListener("submit", (event) => {
     const isValidMessage = mensageValidation()
     const isValidCheckBox = checkBoxValidation();
 
-    console.log({
-        isValidFirstName,
-        isValidSecondName,
-        isValidEmail,
-        isValidQueryOption,
-        isValidMessage,
-        isValidCheckBox
-    });
-
     if (isValidFirstName && isValidSecondName && isValidEmail && isValidQueryOption && isValidMessage && isValidCheckBox){
         window.location.href = "success.html";
     }
